@@ -1,0 +1,7 @@
+llm:
+  openai:
+    provider: "openai"
+    model: "o4-mini"
+  groq:
+    provider: "groq"
+    model: "deepseek-r1-distil-7b"
