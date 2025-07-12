@@ -56,7 +56,7 @@ An intelligent travel planning application built with Streamlit that uses AI to 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/ai-travel-planner.git
+git clone https://github.com/abdulmgbail/AI-Travel-Planner.git
 cd ai-travel-planner
 ```
 
@@ -243,13 +243,6 @@ API_TIMEOUT=120
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 🙏 Acknowledgments
-
-- Built with [Streamlit](https://streamlit.io/) for the beautiful web interface
-- AI integration via FastAPI backend
-- Modern CSS design with gradient styling
-- Responsive design principles
 
 <div align="center">
   <p>🌍 <strong>AI Travel Planner</strong> | Making your travel dreams come true</p>
