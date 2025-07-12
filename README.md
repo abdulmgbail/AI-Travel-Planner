@@ -244,26 +244,12 @@ API_TIMEOUT=120
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - Built with [Streamlit](https://streamlit.io/) for the beautiful web interface
 - AI integration via FastAPI backend
 - Modern CSS design with gradient styling
 - Responsive design principles
-
-## 📞 Support
-
-For issues and questions:
-
-- Open an issue on GitHub
-- Check the troubleshooting section
-- Review the debug mode output
-
----
 
 <div align="center">
   <p>🌍 <strong>AI Travel Planner</strong> | Making your travel dreams come true</p>
