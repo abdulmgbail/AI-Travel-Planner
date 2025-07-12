@@ -2,7 +2,7 @@
 
 An intelligent travel planning application built with Streamlit that uses AI to create personalized itineraries based on user preferences, travel dates, budget, and travel style. The app provides a beautiful, user-friendly interface for planning your perfect trip.
 
-![AI Travel Planner Demo](output/ai_travel_planner_preserved.gif)
+![AI Travel Planner Demo](outputs/ai_travel_planner_preserved.gif)
 
 ## ✨ Features
 
