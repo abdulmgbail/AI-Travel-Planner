@@ -1,32 +1,43 @@
 class Calculator:
-
     @staticmethod
-    def multiply(a: int, b: int):
-        """Multiplies two numbers."""
-        return a * b
-
-    @staticmethod
-    def calculate_total(*x:float):
+    def multiply(a: int, b: int) -> int:
         """
-            Calculates the sum of given numbers.
-            Args:
-                *x (float): Variable number of float arguments.
-            Returns:
-                float: The total sum of the provided numbers.
+        Multiply two integers.
+
+        Args:
+            a (int): The first integer.
+            b (int): The second integer.
+
+        Returns:
+            int: The product of a and b.
+        """
+        return a * b
+    
+    @staticmethod
+    def calculate_total(*x: float) -> float:
+        """
+        Calculate sum of the given list of numbers
+
+        Args:
+            x (list): List of floating numbers
+
+        Returns:
+            float: The sum of numbers in the list x
         """
         return sum(x)
     
     @staticmethod
-    def calculate_daily_budget(total_budget: float, days: int) -> float:
+    def calculate_daily_budget(total: float, days: int) -> float:
         """
-        Calculates the daily budget based on total budget and number of days.
-        
+        Calculate daily budget
+
         Args:
-            total_budget (float): The total budget available.
-            days (int): The number of days for the trip.
-        
+            total (float): Total cost.
+            days (int): Total number of days
+
         Returns:
-            float: The daily budget.
+            float: Expense for a single day
         """
-        
-        return total_budget / days if days > 0 else 0
+        return total / days if days > 0 else 0
+    
+    

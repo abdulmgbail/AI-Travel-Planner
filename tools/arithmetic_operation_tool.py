@@ -5,7 +5,7 @@ from langchain.tools import tool
 from langchain_community.utilities.alpha_vantage import AlphaVantageAPIWrapper
 
 @tool
-def add_numbers(a: int, b: int) -> int:
+def add(a: int, b: int) -> int:
     """Adds two numbers together.
     Args:
         a (int): The first integer.
@@ -17,7 +17,7 @@ def add_numbers(a: int, b: int) -> int:
     return a + b
 
 @tool
-def multiply_numbers(a: int, b: int) -> int:
+def multiply(a: int, b: int) -> int:
     """Multiplies two numbers together.
     Args:
         a (int): The first integer.
